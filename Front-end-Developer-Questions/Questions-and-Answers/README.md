@@ -324,12 +324,13 @@ HTML5？
 		*   1.id选择器（ # myid）
 			2.类选择器（.myclassname）
 			3.标签选择器（div, h1, p）
-			4.相邻选择器（h1 + p）
-			5.子选择器（ul > li）
-			6.后代选择器（li a）
+			4.相邻选择器（h1 + p）select all F elements that are placed right after to E elements
+			5.子选择器（ul > li）select all F elements that parent is a E element
+			6.后代选择器（li a） select all F elements in the E elements
 			7.通配符选择器（ * ）
 			8.属性选择器（a[rel = "external"]）
 			9.伪类选择器（a:hover, li:nth-child）
+			10. (E ~ F) select all F elements that are siblings of a E element
 
 		*   可继承的样式： font-size font-family color, UL LI DL DD DT;
 
